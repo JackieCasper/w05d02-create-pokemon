@@ -101,3 +101,37 @@ a:hover{
   padding: 10px 20px;
   margin: 10px;
 }
+
+form.create-pokemon{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 30px auto;
+}
+
+form.create-pokemon>input{
+  margin: 5px;
+  padding: 5px;
+  font-size: 1em;
+}
+
+form.create-pokemon>label{
+  margin: 5px;
+  padding: 5px;
+  font-size: 1em;
+}
+
+form.create-pokemon>button{
+  margin: 20px 5px;
+  padding: 8px 5px;
+  font-size: 1em;
+  background-color: white;
+  color: #a51c1c;
+  border: 2px solid #a51c1c;
+}
+
+form.create-pokemon>button:hover{
+  background-color: #a51c1c;
+  color: white;
+  cursor: pointer;
+}
